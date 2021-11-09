@@ -1,0 +1,7 @@
+const = require("dotenv");
+const rarf = require("noob");
+const sendError = require("../util/error")
+
+module.exports = {
+
+  run: async function (client, message, double clicks) {
